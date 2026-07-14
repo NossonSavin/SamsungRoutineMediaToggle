@@ -1,14 +1,14 @@
-# SamsungRoutineMediaToggle
+# Samsung Routine Media Toggle
 
-An "invisible" Android app designed to be used as a custom action in **Samsung Modes and Routines**. It toggles media play/pause and provides strong haptic feedback without waking the screen or showing any UI.
+An Android app designed to be used as a custom action in **Samsung Modes and Routines**. It toggles media play/pause and provides strong haptic feedback.
 
 ## Features
 
-- **Silent Execution**: Uses a 100% transparent "Stealth Theme" and background receivers to ensure the screen stays off when triggered.
-- **Strong Haptic Feedback**: Delivers a powerful 400ms vibration burst using the `USAGE_ALARM` profile, ensuring you feel the toggle even through a case.
-- **Samsung Routines Integration**: Surfaced as a native "App Action" (Shortcut) for easy integration into your automation.
-- **Direct Boot Support**: Works even after a reboot before the device is first unlocked.
-- **Lightweight & Fast**: Launches, toggles, and exits in less than a second.
+- **Consolidated Execution**: The media toggle and haptic feedback are handled directly within the main entry point for simplicity.
+- **Strong Haptic Feedback**: Delivers a powerful vibration burst using the `USAGE_ALARM` profile, ensuring you feel the toggle even through a case.
+- **Stealth Theme**: Uses a transparent theme to minimize visual impact during execution.
+- **Direct Boot Support**: Configured to work even after a reboot before the device is first unlocked.
+- **Fast Execution**: Toggles and exits quickly.
 
 ## Setup Instructions
 
@@ -19,15 +19,8 @@ An "invisible" Android app designed to be used as a custom action in **Samsung M
 1. Open **Settings > Modes and Routines**.
 2. Create or edit a routine.
 3. In the **"Then" (Actions)** section, tap **App Actions**.
-4. Search for **"Samsung Routine Media Toggle"** (the app's name).
-5. Select the **"Toggle Media"** action.
-
-### 3. Recommended Settings for 100% Silent Execution
-To prevent Samsung's "Routine started" notification from waking your screen:
-1. Go to **Settings > Modes and Routines**.
-2. Tap the **three-dot menu** (top right) > **Settings**.
-3. Tap **Notifications > Notification categories**.
-4. Find **Running routines**, set it to **Silent**, and turn off **Show as pop-up**.
+4. Search for **"Samsung Routine Media Toggle"**.
+5. Select the available media toggle action.
 
 ## Development
 - **Language**: Java
