@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mediacontroller"
+rootProject.name = "SamsungRoutineMediaToggle"
 include(":app")
