@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Samsung Routine Media Toggle</string>
+    <string name="shortcut_toggle_media">Toggle Media</string>
 </resources>
