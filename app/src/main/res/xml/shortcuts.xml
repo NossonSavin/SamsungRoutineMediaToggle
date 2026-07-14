@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/apk/res/android">
+    <capability android:name="actions.intent.CONTROL_MEDIA">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.example.mediacontroller"
+            android:targetClass="com.example.mediacontroller.MainActivity">
+            <parameter
+                android:name="mediaPerformance.mediaControlIntent"
+                android:key="controlType"
+                android:value="PLAY_PAUSE"/>
+        </intent>
+    </capability>
+</shortcuts>
